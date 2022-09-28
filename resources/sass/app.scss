@@ -5,23 +5,34 @@
     margin: 0;
     padding: 0;
 }
-
 main {
-    background-color:lightskyblue;
-
+    min-height: 80vh;
 }
-
 header,
 footer{
-    height:5vh;
+    height:10vh;
     background-color:grey;
     display:flex;
     align-items:center;
 }
 header {
     justify-content:space-around;
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: initial;
 }
 footer{
     justify-content:center;
 }
+
 
