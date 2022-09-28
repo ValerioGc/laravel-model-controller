@@ -11,17 +11,29 @@ main {
 header,
 footer{
     height:10vh;
-    background-color:grey;
+    background-color: #1a1a1a;
     display:flex;
     align-items:center;
 }
 header {
     justify-content:space-around;
+    box-shadow: 0 -2px 8px #fff;
+    z-index: 999;
+    width: 100%;
+    position: sticky;
 
+
+    nav {
+        flex-basis: 40%;
+    }
     nav ul {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+
+        li {
+    color: #fff;
+        }
     }
 }
 ul {
