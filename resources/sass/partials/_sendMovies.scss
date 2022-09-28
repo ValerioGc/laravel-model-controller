@@ -17,5 +17,13 @@
     input:not([type="radio"]){
         display: block;
     }
+    label {
+        padding: 1rem 0;
+    }
+    button,
+    input{
+        padding: 5px 15px;
+
+    }
 }
 
