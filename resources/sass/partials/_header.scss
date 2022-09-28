@@ -1,0 +1,30 @@
+header {
+    //@include d-flex('around');
+    justify-content: space-around;
+    box-shadow: 0 -2px 8px #fff;
+    z-index: 999;
+    width: 100%;
+    position: sticky;
+
+
+    nav {
+        flex-basis: 40%;
+    }
+    nav ul {
+        //@include d-flex('between');
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .active {
+            border-bottom: 2px solid red;
+        }
+        li a {
+            color: #fff;
+
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}

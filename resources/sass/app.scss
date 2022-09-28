@@ -1,50 +1,6 @@
-@import'./partials/movies';
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-main {
-    min-height: 80vh;
-}
-header,
-footer{
-    height:10vh;
-    background-color: #1a1a1a;
-    display:flex;
-    align-items:center;
-}
-header {
-    justify-content:space-around;
-    box-shadow: 0 -2px 8px #fff;
-    z-index: 999;
-    width: 100%;
-    position: sticky;
-
-
-    nav {
-        flex-basis: 40%;
-    }
-    nav ul {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        li {
-    color: #fff;
-        }
-    }
-}
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: initial;
-}
-footer{
-    justify-content:center;
-}
-
-
+@import 'mixins/positionMixins';
+@import './partials/reset';
+@import './partials/common';
+@import './partials/header';
+@import './partials/movies';
+@import './partials/sendMovies';

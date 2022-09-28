@@ -13,4 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
+$navLinks = config('navLinks');
+foreach ($navLinks as $link) {
+    $linkController = str_replace(" ","", $link) .'Controller';
+    Route::get('/'.$linkController, $linkController . '@index')->name($link);
+}
+
+
