@@ -8,7 +8,9 @@
             @foreach($movies as $card)
                 <li class="card">
                     <h3>{{$card['title']}}</h3>
-                    <p>{{$card['date']}}</p>
+                    <p><strong>Data:</strong></p>
+                    <p> {{$card['date']}}</p>
+                    <p><strong>Voto:</strong></p>
                     <p>{{$card['vote']}}</p>
                 </li>
             @endforeach

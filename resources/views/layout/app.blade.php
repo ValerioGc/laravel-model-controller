@@ -11,14 +11,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-
         @include('partials.header')
-
         <main>
             @yield('movies-container')
         </main>
-
         @include('partials.footer')
-
     </body>
 </html>
