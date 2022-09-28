@@ -6,6 +6,7 @@
 @section('movies-container')
     <div class="container form-container">
         <form action="" method="get">
+            <h2>Suggest a Movie</h2>
             <label for="nameMovie">Movie Name:</label>
             <input type="text" name="nameMovie" required />
             <label for="yearMovie">Movie Year:</label>

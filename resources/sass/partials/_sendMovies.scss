@@ -5,15 +5,13 @@
     form {
         display: inline-block;
         padding: 4rem;
-        text-align: center;
+        @extend .t-center;
         background-color: #fff;
         border-radius: 3px;
         @include d-flex('', '', '');
         flex-direction: column;
     }
-    button {
-        text-align: center;
-    }
+
     button,
     label:not([for="status"]),
     input:not([type="radio"]){

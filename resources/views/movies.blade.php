@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('page-title', 'Laravel Movies')
+@section('page-title', Request::route()->getName())
 
 @section('movies-container')
     <div class="container">

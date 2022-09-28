@@ -1,3 +1,6 @@
+.t-center {
+    text-align: center;
+}
 
 header,
 footer{
@@ -23,20 +26,4 @@ footer{
 
 
 
-.links-container {
-    @include d-flex('','','wrap');
-}
-.home-container {
 
-    text-align: center;
-    justify-content: center;
-    background-color: #fff;
-    width: 50%;
-    margin: auto;
-    h1 {
-        display: block;
-    }
-    .container-links {
-        @include d-flex('','','');
-    }
-}
