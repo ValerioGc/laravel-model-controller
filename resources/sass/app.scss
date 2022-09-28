@@ -1,1 +1,27 @@
-//
+@import'./partials/movies';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color:lightskyblue;
+
+}
+
+header,
+footer{
+    height:5vh;
+    background-color:grey;
+    display:flex;
+    align-items:center;
+}
+header {
+    justify-content:space-around;
+}
+footer{
+    justify-content:center;
+}
+
