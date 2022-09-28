@@ -8,6 +8,7 @@ use App\Movie;
 
 class SuggestMoviesController extends Controller
 {
+
     public function index()
     {
         $navLinks = config('navLinks');
